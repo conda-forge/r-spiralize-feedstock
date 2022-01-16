@@ -1,4 +1,4 @@
-{% set version = '1.0.3' %}
+{% set version = "1.0.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/spiralize_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/spiralize/spiralize_{{ version }}.tar.gz
-  sha256: 28f4d661e2c29d2734d117be44149e3f56d20b9ae9aca0ae0036f7bf9f3c6584
+  sha256: a9420777d79d79ee4b69562c30a7a817e441229b52b9e4077c9329fc716f8379
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -45,10 +45,7 @@ test:
 about:
   home: https://github.com/jokergoo/spiralize
   license: MIT
-  summary: 'It visualizes data along an Archimedean spiral <https://en.wikipedia.org/wiki/Archimedean_spiral>.
-    It has two major advantages for visualization: 1. It is able to visualize data with
-    very long axis with high resolution. 2. It is efficient for time series data to
-    reveal periodic patterns.'
+  summary: 'It visualizes data along an Archimedean spiral <https://en.wikipedia.org/wiki/Archimedean_spiral>. It has two major advantages for visualization: 1. It is able to visualize data with very long axis with high resolution. 2. It is efficient for time series data to reveal periodic patterns.'
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
