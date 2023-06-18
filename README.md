@@ -1,11 +1,11 @@
-About r-spiralize
-=================
+About r-spiralize-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-spiralize-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jokergoo/spiralize
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-spiralize-feedstock/blob/main/LICENSE.txt)
 
 Summary: It visualizes data along an Archimedean spiral <https://en.wikipedia.org/wiki/Archimedean_spiral>. It has two major advantages for visualization: 1. It is able to visualize data with very long axis with high resolution. 2. It is efficient for time series data to reveal periodic patterns.
 
