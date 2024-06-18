@@ -26,12 +26,14 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-complexheatmap
     - r-getoptlong >=0.1.8
     - r-globaloptions >=0.1.1
     - r-circlize
     - r-lubridate
   run:
     - r-base
+    - r-complexheatmap
     - r-getoptlong >=0.1.8
     - r-globaloptions >=0.1.1
     - r-circlize
